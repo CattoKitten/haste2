@@ -17,12 +17,12 @@ RUN npm install && \
     npm install rethinkdbdash@2.3.31
 
 ENV STORAGE_TYPE=amazon-s3 \
-    STORAGE_HOST=s3.notyourfriend.xyz \
+    STORAGE_HOST=s3v2.notyourfriend.xyz \
     STORAGE_PORT=9000\
     STORAGE_EXPIRE_SECONDS=2592000\
     STORAGE_DB= \
-    STORAGE_AWS_BUCKET=bucket1 \
-    STORAGE_AWS_REGION=id-jakarta-1 \
+    STORAGE_AWS_BUCKET=bucket-1 \
+    STORAGE_AWS_REGION=id-jakarta1 \
     STORAGE_USERNAME= \
     STORAGE_PASSWORD= \
     STORAGE_FILEPATH= 
